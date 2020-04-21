@@ -98,8 +98,20 @@ nav .navbar-nav li .booknow:hover {
 }
 .centered {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
+    transform: translate(-50%, -50%);
+}
+.lefter {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.righter {
+    position: absolute;
+    top: 70%;
+    left: 70%;
     transform: translate(-50%, -50%);
 }
 .ban {
